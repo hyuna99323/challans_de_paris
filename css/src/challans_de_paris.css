@@ -1,0 +1,155 @@
+/* challans_de_paris.css */
+#wrap {
+  width: 100%;
+  height: auto;
+  min-height: 800px;
+  margin: auto;
+  background-color: #fff;
+  padding: 10px 72px;
+}
+
+#wrap #headBox {
+  width: 100%;
+  height: 140px;
+  position: sticky;
+  top: 0;
+  box-sizing: border-box;
+  z-index: 1000;
+}
+
+#wrap #headBox .headinner1 {
+  width: 100%;
+  height: 55%;
+  margin: auto;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+}
+
+#wrap #headBox .headinner1 h1 {
+  width: 54%;
+  margin: auto 0;
+}
+
+#wrap #headBox .headinner1 h1 a {
+  width: 100%;
+}
+
+#wrap #headBox .headinner1 h1 a img {
+  width: 254px;
+  height: 16px;
+}
+
+#wrap #headBox .headinner1 .search {
+  width: 356px;
+  height: 38px;
+  margin: auto;
+  background-color: #eee;
+  border-radius: 50px;
+}
+
+#wrap #headBox .headinner1 .paris_go {
+  width: 3.8%;
+  margin: auto;
+}
+
+#wrap #headBox .headinner1 .paris_go a {
+  width: 100%;
+  display: block;
+}
+
+#wrap #headBox .headinner1 .paris_go a img {
+  width: 49px;
+  height: 64px;
+}
+
+#wrap #headBox .headinner1 .seoul_go {
+  width: 3%;
+  margin: auto;
+}
+
+#wrap #headBox .headinner1 .seoul_go a {
+  width: 100%;
+  display: block;
+}
+
+#wrap #headBox .headinner1 .seoul_go a img {
+  width: 39px;
+  height: 67px;
+}
+
+#wrap #headBox .headinner2 {
+  width: 100%;
+  height: 45%;
+  display: flex;
+  gap: 23%;
+}
+
+#wrap #headBox .headinner2 .gnb {
+  width: 55%;
+  display: flex;
+}
+
+#wrap #headBox .headinner2 .gnb a {
+  margin: auto;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#wrap #headBox .headinner2 .gnb a:nth-child(1) {
+  width: 13%;
+}
+
+#wrap #headBox .headinner2 .gnb a:nth-child(2) {
+  width: 10%;
+}
+
+#wrap #headBox .headinner2 .gnb a:nth-child(3) {
+  width: 12%;
+}
+
+#wrap #headBox .headinner2 .gnb a:nth-child(4) {
+  width: 16%;
+}
+
+#wrap #headBox .headinner2 .gnb a:nth-child(5) {
+  width: 19%;
+}
+
+#wrap #headBox .headinner2 .gnb a:nth-child(6) {
+  width: 15%;
+}
+
+#wrap #headBox .headinner2 .unb {
+  width: 45%;
+  display: flex;
+}
+
+#wrap #headBox .headinner2 .unb a {
+  width: 21%;
+  margin: auto;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#wrap #viewport {
+  display: none;
+}
+
+#wrap #promotion {
+  display: none;
+}
+
+#wrap #bestseller {
+  display: none;
+}
+
+#wrap #instagram {
+  display: none;
+}
+
+#wrap #contact {
+  display: none;
+}
