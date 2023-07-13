@@ -19,6 +19,8 @@
     top: 0;
     box-sizing: border-box;
     z-index: 1000;
+    background-color: $color_white;
+
 
     .headinner1 {
       width: 100%;
@@ -91,7 +93,7 @@
         a {
           margin: auto;
           text-align: center;
-          font-size: map-get($map:$font_size , $key:pointtitle);
+          font-size: map-get($map:$font_size , $key:nav);
           font-weight: $font_weight_normal;
           &:nth-child(1) {
             width: 13%;
@@ -121,14 +123,93 @@
           width: 21%;
           margin: auto;
           text-align: center;
-          font-size: map-get($map:$font_size , $key:pointtitle);
+          font-size: map-get($map:$font_size , $key:nav);
           font-weight: $font_weight_normal;
         }
       }
     }
   } // #headBox
-  #viewport {display: none;}
-  #promotion {display: none;}
+
+  #viewport {
+    width: 100%;
+    height: auto;
+
+    a {
+      width: 100%;
+      height: auto;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+  
+  #promotion {
+    margin: 100px 0;
+
+    h3 {
+      font-size: map-get($map: $font_size, $key: h3title);
+      font-weight: $font_weight_thin;
+      text-align: center;
+      text-transform: uppercase;
+      margin-bottom: 40px;
+    }
+
+    .promtion_inner {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .promotion_img {
+      width: 400px;
+      height: 400px;
+      margin: auto;
+
+      img {
+        width: auto;
+        height: 100%;
+        margin: auto;
+        display: block;
+      }
+    }
+    .promotion_content {
+      width: auto;
+      height: auto;
+      margin: auto;
+      margin-bottom: 62px;
+
+      .promotion_text {
+        width: auto;
+        height: auto;
+        margin-top: 20px;
+
+        p {
+          font-size: map-get($map: $font_size, $key: content2);
+          font-weight: $font_weight_thin;
+          text-align: center;
+        }
+        :nth-child(2) {
+          font-size: map-get($map: $font_size, $key: content1);
+          margin-top: 8px;
+          }
+      }
+    }//promotion_content
+    button {
+      width: 232px;
+      height: 62px;
+      margin: 50px;
+      border: 1px solid $color_down_black;
+      border-radius: 50px;
+      font-size: map-get($map: $font_size, $key: content2);
+      font-weight: $font_weight_thin;
+      text-transform: uppercase;
+      transform: translate(50%, -50%);
+      top: 0;
+      left: 27.9%;
+      position: relative;
+    }
+
+  }
   #bestseller {display: none;}
   #instagram {display: none;}
   #contact {display: none;}

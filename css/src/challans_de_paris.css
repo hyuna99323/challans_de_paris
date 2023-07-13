@@ -15,6 +15,7 @@
   top: 0;
   box-sizing: border-box;
   z-index: 1000;
+  background-color: #fff;
 }
 
 #wrap #headBox .headinner1 {
@@ -93,7 +94,7 @@
 #wrap #headBox .headinner2 .gnb a {
   margin: auto;
   text-align: center;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 500;
 }
 
@@ -130,16 +131,92 @@
   width: 21%;
   margin: auto;
   text-align: center;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 500;
 }
 
 #wrap #viewport {
-  display: none;
+  width: 100%;
+  height: auto;
+}
+
+#wrap #viewport a {
+  width: 100%;
+  height: auto;
+}
+
+#wrap #viewport a img {
+  width: 100%;
+  height: auto;
 }
 
 #wrap #promotion {
-  display: none;
+  margin: 100px 0;
+}
+
+#wrap #promotion h3 {
+  font-size: 25px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+#wrap #promotion .promtion_inner {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#wrap #promotion .promotion_img {
+  width: 400px;
+  height: 400px;
+  margin: auto;
+}
+
+#wrap #promotion .promotion_img img {
+  width: auto;
+  height: 100%;
+  margin: auto;
+  display: block;
+}
+
+#wrap #promotion .promotion_content {
+  width: auto;
+  height: auto;
+  margin: auto;
+  margin-bottom: 62px;
+}
+
+#wrap #promotion .promotion_content .promotion_text {
+  width: auto;
+  height: auto;
+  margin-top: 20px;
+}
+
+#wrap #promotion .promotion_content .promotion_text p {
+  font-size: 17px;
+  font-weight: 400;
+  text-align: center;
+}
+
+#wrap #promotion .promotion_content .promotion_text :nth-child(2) {
+  font-size: 15px;
+  margin-top: 8px;
+}
+
+#wrap #promotion button {
+  width: 232px;
+  height: 62px;
+  margin: 50px;
+  border: 1px solid #282C37;
+  border-radius: 50px;
+  font-size: 17px;
+  font-weight: 400;
+  text-transform: uppercase;
+  transform: translate(50%, -50%);
+  top: 0;
+  left: 27.9%;
+  position: relative;
 }
 
 #wrap #bestseller {
