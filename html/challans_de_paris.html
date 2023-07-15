@@ -6,7 +6,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <script src="../js/common/modernizr-custom.js"></script>
 
   <link rel="stylesheet" href="../css/common/reset.css">
   <link rel="stylesheet" href="../css/common/common.css">
@@ -18,7 +17,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
   <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
 
-  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+
+  <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
+
+  <title>샬랑 드 파리</title>
   <link rel="shortcut icon" href="../img/btn_seoul.png" type="image/png">
   <link rel="apple-touch-icon" href="../img/btn_seoul.png">
 </head>
@@ -70,7 +74,7 @@
           </div>
           <div class="promotion_text">
             <p>대용량 기미케어 크림 75ml</p>
-            <p>15,000원</p>
+            <p>15&#44;000원</p>
           </div>
         </div>
         <div class="promotion_content">
@@ -79,7 +83,7 @@
           </div>
           <div class="promotion_text">
             <p>대용량 모공축소 크림 75ml</p>
-            <p>15,000원</p>
+            <p>15&#44;000원</p>
           </div>
         </div>
         <div class="promotion_content">
@@ -88,7 +92,7 @@
           </div>
           <div class="promotion_text">
             <p>결점 커버 쿠션</p>
-            <p>20,940원</p>
+            <p>20&#44;940원</p>
           </div>
         </div>
         <div class="promotion_content">
@@ -97,7 +101,7 @@
           </div>
           <div class="promotion_text">
             <p>무결점 광채 클렌저</p>
-            <p>10,000원</p>
+            <p>10&#44;000원</p>
           </div>
         </div>
         <div class="promotion_content">
@@ -106,7 +110,7 @@
           </div>
           <div class="promotion_text">
             <p>트러블 전문 크림 30ml</p>
-            <p>15,000원</p>
+            <p>15&#44;000원</p>
           </div>
         </div>
         <div class="promotion_content">
@@ -115,7 +119,7 @@
           </div>
           <div class="promotion_text">
             <p>모공축소 크림 30ml</p>
-            <p>10,000원</p>
+            <p>10&#44;000원</p>
           </div>
         </div>
         <div class="promotion_content">
@@ -124,7 +128,7 @@
           </div>
           <div class="promotion_text">
             <p>초밀착 광채 쿠션 파운데이션</p>
-            <p>26,940원</p>
+            <p>26&#44;940원</p>
           </div>
         </div>
         <div class="promotion_content">
@@ -133,7 +137,7 @@
           </div>
           <div class="promotion_text">
             <p>모공축소 클렌저</p>
-            <p>10,000원</p>
+            <p>10&#44;000원</p>
           </div>
         </div>
         <div class="promotion_content">
@@ -141,8 +145,8 @@
             <img src="../img/promotion09.jpeg" alt="">
           </div>
           <div class="promotion_text">
-            <p>0.3초 흡수 모공축소 선크림</p>
-            <p>22,440원</p>
+            <p>0&#46;3초 흡수 모공축소 선크림</p>
+            <p>22&#44;440원</p>
           </div>
         </div>
       </div>
@@ -150,22 +154,27 @@
     </section>
     <section id="bestseller">
       <h3>best seller</h3>
-      <div class="best01">
-        <img src="../img/bestseller01.jpeg" alt="">
+      <div class="best_inner">
+        <swiper-container class="mySwiper" pagination="true" effect="coverflow" grab-cursor="true" centered-slides="true"
+        slides-per-view="auto" coverflow-effect-rotate="50" coverflow-effect-stretch="0" coverflow-effect-depth="100"
+        coverflow-effect-modifier="1" coverflow-effect-slide-shadows="true">
+        <swiper-slide>
+          <img src="../img/bestseller01.jpeg" alt="">
+        </swiper-slide>
+        <swiper-slide>
+          <img src="../img/bestseller02.jpeg" alt="">
+        </swiper-slide>
+        <swiper-slide>
+          <img src="../img/bestseller03.jpeg" alt="">
+        </swiper-slide>
+        <swiper-slide>
+          <img src="../img/bestseller04.jpeg" alt="">
+        </swiper-slide>
+        <swiper-slide>
+          <img src="../img/bestseller05.jpeg" alt="">
+        </swiper-slide>
       </div>
-      <div class="best02">
-        <img src="../img/bestseller02.jpeg" alt="">
-      </div>
-      <div class="best03">
-        <img src="../img/bestseller03.jpeg" alt="">
-      </div>
-      <div class="best04">
-        <img src="../img/bestseller04.jpeg" alt="">
-      </div>
-      <div class="best05">
-        <img src="../img/bestseller05.jpeg" alt="">
-      </div>
-      <p>여러분께 가장 많은 사랑을 받은 샬랑 드 파리 제품을 소개해 드립니다.</p>
+      <p>여러분께 가장 많은 사랑을 받은 샬랑 드 파리 제품을 소개해 드립니다&#46;</p>
     </section>
     <section id="instagram">
       <h3>instagram</h3>
@@ -177,7 +186,7 @@
         <a href="#"><img src="../img/instagram05.jpeg" alt=""></a>
         <a href="#"><img src="../img/instagram06.jpeg" alt=""></a>
       </div>
-      <a class="button_move" href="https://www.instagram.com/challansdeparis/">follow</a>
+      <a class="button_move" href="https://www.instagram.com/challansdeparis/" target="_blank">follow</a>
     </section>
     <footer id="contact">
       <nav class="Fnb">
@@ -192,21 +201,21 @@
       <div class="foot_inner">
         <div class="foot_left">
           <img src="../img/com_kr.png" alt="샬랑 드 파리 로고">
-          <p><span>COMPANY: OPUSASIA Co.,ltd.</span><span>CEO: James, Lee</span><span>TEL: 070-4130-0135</span></p>
-          <p>BUSINESS LICENSE NO: . 464-86-00886</p>
-          <p>ADD: OPUSASIA Bldg, 64, Gwangseong-ro-6-gil, Mapo-gu, Seoul, Korea</p>
-          <p>E-COMMERCE REGISTRATION: 2023-Seoul Mapo-0627</p>
-          <p><span>PERSONAL INFO MANAGER: Jacob Lee(jc@opusasia.kr)</span><button>[사업자정보확인]</button></p>
-          <p>CONTACT: jc@opusasia.kr</p>
+          <p><span>COMPANY&#58; OPUSASIA Co&#46;&#44;ltd&#46;</span><span>CEO&#58; James&#44; Lee</span><span>TEL&#58; 070&#45;4130&#45;0135</span></p>
+          <p>BUSINESS LICENSE NO&#58; &#46;464&#45;86&#45;00886</p>
+          <p>ADD&#58; OPUSASIA Bldg&#44; 64&#44; Gwangseong&#45;ro&#45;6&#45;gil&#44; Mapo&#45;gu&#44; Seoul&#44; Korea</p>
+          <p>E&#45;COMMERCE REGISTRATION&#58; 2023&#45;Seoul Mapo&#45;0627</p>
+          <p><span>PERSONAL INFO MANAGER&#58; Jacob Lee&#40;jc&#64;opusasia&#46;kr&#41;</span><button>	&#91;사업자정보확인	&#93;</button></p>
+          <p>CONTACT&#58; jc&#64;opusasia&#46;kr</p>
         </div>
         <div class="foot_right">
-          <a href="tel:070.4130.0135"><span>고객센터 070.4130.0135</span></a>
-          <p>운영시간 평일 11:00 - 17:00</p>
-          <p>점심시간 12:30 - 13:30</p>
-          <p>이메일 cs@opusasia.kr</p>
+          <a href="tel:070.4130.0135"><span>고객센터 070&#46;4130&#46;0135</span></a>
+          <p>운영시간 평일 11&#58;00 &#45; 17&#58;00</p>
+          <p>점심시간 12&#58;30 &#45; 13&#58;30</p>
+          <a href="mailto:cs@opusasia.kr"><p>이메일 cs&#64;opusasia&#46;kr</p></a>
         </div>
       </div>
-      <div class="copyright"><p>Copyright © CHALLANS de PARIS. All rights reserved.</p></div>
+      <div class="copyright"><p>Copyright &#169; CHALLANS de PARIS&#46; All rights reserved&#46;</p></div>
     </footer>
   </div>
 

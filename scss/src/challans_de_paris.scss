@@ -10,11 +10,11 @@
   min-height: 800px;
   margin: auto;
   background-color: $color_white;
-  padding: 10px 72px;
 
   #headBox {
     width: 100%;
     height: 140px;
+    padding-top: 10px 72px;
     position: sticky;
     top: 0;
     box-sizing: border-box;
@@ -133,6 +133,7 @@
   #viewport {
     width: 100%;
     height: auto;
+    padding: 0 72px;
 
     a {
       width: 100%;
@@ -168,6 +169,7 @@
 
   #promotion {
     margin: 100px 0;
+    padding: 0 72px;
 
     .promtion_inner {
       display: flex;
@@ -209,7 +211,42 @@
     }//promotion_content
 
   }
-  #bestseller {display: none;}
+  #bestseller {
+    background-color: $color_bestback;
+    padding: 120px 72px;
+    
+    swiper-container {
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+
+    swiper-slide {
+      width: 300px;
+      height: 380px;
+      margin: auto;
+      display: block;
+      background-position: center;
+      background-size: cover;
+    }
+
+    swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper {
+      // top: 500px;
+    }
+    p {
+      width: 275px;
+      margin: auto;
+      text-align: center;
+      font-size: map-get($map: $font_size, $key: content1);
+      font-weight: $font_weight_thin;
+    }
+  }
   #instagram {
     width: 100%;
     height: auto;
@@ -237,6 +274,7 @@
   #contact {
     width: 100%;
     height: auto;
+    padding: 0 72px 10px;
 
     .Fnb {
       width: 100%;
@@ -254,6 +292,28 @@
         // height: 100%;
         margin: auto;
         text-transform: uppercase;
+
+        :nth-child(1) {
+          width: 9%;
+        }
+        :nth-child(2) {
+          width: 10%;
+        }
+        :nth-child(3) {
+          width: 11%;
+        }
+        :nth-child(4) {
+          width: 7%;
+        }
+        :nth-child(5) {
+          width: 7%;
+        }
+        :nth-child(6) {
+          width: 6%;
+        }
+        :nth-child(7) {
+          width: 7%;
+        }
       }
     }
     .foot_inner {
@@ -296,7 +356,7 @@
       }
     }
     .copyright {
-      margin-top: 30px;
+      margin: 30px 45px 0;
       
       p{
         font-size: map-get($map: $font_size, $key: content1);
