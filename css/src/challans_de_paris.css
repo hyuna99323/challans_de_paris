@@ -10,7 +10,7 @@
 #wrap #headBox {
   width: 100%;
   height: 140px;
-  padding-top: 10px 72px;
+  padding: 10px 72px 0;
   position: sticky;
   top: 0;
   box-sizing: border-box;
@@ -139,6 +139,7 @@
   width: 100%;
   height: auto;
   padding: 0 72px;
+  /* viewBox main */
 }
 
 #wrap #viewport a {
@@ -146,9 +147,73 @@
   height: auto;
 }
 
-#wrap #viewport a img {
+#wrap #viewport img {
   width: 100%;
   height: auto;
+}
+
+#wrap #viewport .swiper {
+  width: 100%;
+  height: auto;
+}
+
+#wrap #viewport .swiper-slide img {
+  width: 100%;
+  height: auto;
+  display: block;
+  cursor: pointer;
+}
+
+#wrap #viewport .container {
+  width: 100%;
+  max-width: 1080px;
+  margin: auto;
+  padding: 30px 20px;
+  position: relative;
+}
+
+#wrap #viewport .swiper-slide {
+  width: 100%;
+  height: auto;
+  background-color: #eee;
+}
+
+#wrap #viewport .swiper-pagination-bullet {
+  width: 40px;
+  height: 3px;
+  border-radius: 0;
+  background-color: #fff;
+}
+
+#wrap #viewport .swiper-pagination-bullet-active {
+  width: 80px;
+  background-color: #fff;
+}
+
+#wrap #viewport .swiper-button-next.swiper-button-disabled,
+#wrap #viewport .swiper-button-prev.swiper-button-disabled {
+  opacity: 0;
+}
+
+#wrap #viewport .swiper-button-next, #wrap #viewport .swiper-button-prev {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 50%;
+  backdrop-filter: blur(3px);
+  transition: 0.4s;
+  z-index: 1001;
+  background-size: 18px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#wrap #viewport .swiper-button-next, #wrap #viewport .swiper-button-prev::after {
+  color: #ddd;
+}
+
+#wrap #viewport .swiper-button-prev, #wrap #viewport .swiper-button-next:hover {
+  color: #DBCB96;
 }
 
 #wrap h3 {
