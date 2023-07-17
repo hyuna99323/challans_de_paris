@@ -42,11 +42,29 @@
 }
 
 #wrap #headBox .headinner1 .search {
+  width: auto;
+  height: auto;
+}
+
+#wrap #headBox .headinner1 .search #searchInput {
   width: 356px;
   height: 38px;
   margin: auto;
+  padding: 20px;
   background-color: #eee;
   border-radius: 50px;
+  font-size: 15px;
+}
+
+#wrap #headBox .headinner1 .search .search_btn {
+  position: relative;
+  right: 50px;
+  top: 1px;
+}
+
+#wrap #headBox .headinner1 .search .search_btn i {
+  width: 20px;
+  height: 20px;
 }
 
 #wrap #headBox .headinner1 .paris_go {
@@ -237,6 +255,10 @@
   font-weight: 400;
   text-transform: uppercase;
   position: relative;
+}
+
+#wrap .button_move i {
+  padding-left: 8px;
 }
 
 #wrap #promotion {

@@ -45,11 +45,28 @@
       }
 
       .search {
-        width: 356px;
-        height: 38px;
-        margin: auto;
-        background-color: #eee;
-        border-radius: 50px;
+        width: auto;
+        height: auto;
+
+        #searchInput {
+          width: 356px;
+          height: 38px;
+          margin: auto;
+          padding: 20px;
+          background-color: #eee;
+          border-radius: 50px;
+          font-size: map-get($map: $font_size, $key: content1);
+        }
+        .search_btn {
+          position: relative;
+          right: 50px;
+          top: 1px;
+
+          i {
+            width: 20px;
+            height: 20px;
+          }
+        }
       }
 
       .paris_go {
@@ -256,6 +273,10 @@
     font-weight: $font_weight_thin;
     text-transform: uppercase;
     position: relative;
+
+    i {
+      padding-left: 8px;
+    }
   }
 
   #promotion {
