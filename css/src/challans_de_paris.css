@@ -44,6 +44,7 @@
 #wrap #headBox .headinner1 .search {
   width: auto;
   height: auto;
+  margin: auto;
 }
 
 #wrap #headBox .headinner1 .search #searchInput {
@@ -65,10 +66,12 @@
 #wrap #headBox .headinner1 .search .search_btn i {
   width: 20px;
   height: 20px;
+  position: fixed;
+  top: 35px;
 }
 
 #wrap #headBox .headinner1 .paris_go {
-  width: 3.8%;
+  width: 48px;
   margin: auto;
 }
 
@@ -83,7 +86,7 @@
 }
 
 #wrap #headBox .headinner1 .seoul_go {
-  width: 3%;
+  width: 49px;
   margin: auto;
 }
 
@@ -277,6 +280,12 @@
   margin: auto;
 }
 
+@media all and (min-width: 1280px) and (max-width: 1439px) {
+  #wrap #promotion .promotion_img {
+    width: 285px;
+  }
+}
+
 #wrap #promotion .promotion_img img {
   width: auto;
   height: 100%;
@@ -285,7 +294,7 @@
 }
 
 #wrap #promotion .promotion_content {
-  width: auto;
+  width: 33%;
   height: auto;
   margin: auto;
   margin-bottom: 62px;
@@ -321,7 +330,7 @@
 
 #wrap #bestseller swiper-slide {
   width: 300px;
-  height: 380px;
+  height: 320px;
   margin: auto;
   display: block;
   background-position: center;
